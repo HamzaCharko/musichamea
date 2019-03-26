@@ -27,7 +27,7 @@ client.user.setGame(`By Yasmine. `,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
 const adminprefix = "$";
-const devs = ['523159342095269898'];
+const devs = ['541322693178425358'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
